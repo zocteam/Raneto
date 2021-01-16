@@ -10,7 +10,7 @@ var config = {
   site_title: 'Zeroonecoin KB',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: 'kb.01coin.io',
+  base_url: '',
 
   // Used for the "Get in touch" page footer link
   support_email: '',
@@ -120,7 +120,7 @@ var config = {
   // ]
 
   // Set to true to enable generation of table of contents
-  table_of_contents: false,
+  table_of_contents: true,
 
   // Configure generation of table of contents (see markdown-toc's docs for details on available options)
   table_of_contents_options: {
