@@ -7,10 +7,10 @@ var path = require('path');
 var config = {
 
   // Your site title (format: page_title - site_title)
-  site_title: 'Raneto Docs',
+  site_title: 'Zeroonecoin KB',
 
   // The base URL of your site (can use %base_url% in Markdown files)
-  base_url: '',
+  base_url: 'kb.01coin.io',
 
   // Used for the "Get in touch" page footer link
   support_email: '',
@@ -54,10 +54,10 @@ var config = {
   analytics: '',
 
   // Set to true to enable the web editor
-  allow_editing : true,
+  allow_editing : false,
 
   // Set to true to enable HTTP Basic Authentication
-  authentication : true,
+  authentication : false,
 
   // If editing is enabled, set this to true to only authenticate for editing, not for viewing
   authentication_for_edit: true,
